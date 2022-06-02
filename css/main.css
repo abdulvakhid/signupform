@@ -174,28 +174,30 @@
     width: 450px;
     margin-bottom: 35px;
     padding: 8px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    
-    color: #555555;
-    border: none;
-    border-bottom: 1px solid #555555;
-    ;
-
-}
-
-
-
-.name {
-
-
-    
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #000000;
+    border: none;
+    border-bottom: 1px solid #555555;
+ 
+
 }
+
+.input::placeholder{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #555555;
+}
+
+
+
+
+
 
 .last {
     margin-bottom: 63px;
