@@ -1,0 +1,239 @@
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/inter-v11-latin-regular.woff2") format("woff2"), 
+         url("../fonts/inter-v11-latin-regular.woff") format("woff"); 
+  }
+  
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/inter-v11-latin-500.woff2") format("woff2"), 
+         url("../fonts/inter-v11-latin-500.woff") format("woff"); 
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    src:url("../fonts/inter-v11-latin-600.woff2") format("woff2"), 
+         url("../fonts/inter-v11-latin-600.woff") format("woff"); 
+  }
+  
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/inter-v11-latin-700.woff2") format("woff2"), 
+         url("../fonts/inter-v11-latin-700.woff") format("woff"); 
+  }
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+.hero {
+    padding: 80px 0;
+    background: #E7E7E7;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    border-radius: 0%;
+
+}
+
+.about {
+    width: 570px;
+    background-image: url("../images/back-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img {
+
+    padding: 55px 121px 203px 60px;
+    width: 570px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.about {
+    width: 570px;
+    flex-direction: column;
+    margin-right: 12px;
+
+}
+
+.fab {
+    display: inline-block;
+    font-weight: 500;
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 60px;
+
+}
+
+.title-text-c {
+    margin-right: 0;
+}
+
+.title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.title-text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.bonus {
+
+    margin: 0;
+    padding: 29px 145px;
+    background: #4DC490;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.link {
+
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.sign-up {
+    width: 570px;
+    padding: 55px 60px 40px 60px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.sign-up-title {
+    margin: 0;
+    margin-bottom: 79px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+
+
+.sign-up {
+    width: 570px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.input {
+    display: block;
+    width: 450px;
+    margin-bottom: 35px;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #555555;
+    border: none;
+    border-bottom: 1px solid #555555;
+    ;
+
+}
+
+
+
+.name {
+
+
+    
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.last {
+    margin-bottom: 63px;
+}
+
+.btn {
+    
+    padding: 20px 149px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 450px;
+    background: #655AF2;
+    border-radius: 10px;
+    border: none;
+}
+
+form {
+    padding-bottom: 55px;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+}
+
+.offerta {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #555555;
+}
+
+.offerta-link {
+    color: #fd0606;
+    
+}
